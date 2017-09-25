@@ -1,0 +1,4 @@
+Dear {{user.username}}
+Please click below to activate your account:
+{{url_for('auth.confirm',token=token,_external=True)}}
+Thank you.
